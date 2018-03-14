@@ -46,7 +46,6 @@ class CustomerController extends Controller
             'obs' => 'max:400',
 
         ]);
-        return 2;
 
         $customer = new Customer;
         $customer->name = $request->input('name');
